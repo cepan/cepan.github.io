@@ -455,6 +455,31 @@ section {
   background-color: #149ddd;
 }
 
+.skills-tools .skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills-tools .skills-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #050d18;
+  position: relative;
+  padding-left: 25px;
+}
+
+.skills-tools .skills-list li::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #149ddd;
+  font-size: 14px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -744,6 +769,9 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
